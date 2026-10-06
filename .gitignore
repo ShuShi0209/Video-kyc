@@ -1,0 +1,16 @@
+.env
+venv/
+node_modules/
+__pycache__/
+*.pyc
+storage/*
+!storage/.gitkeep
+backend/storage
+
+# generated / local
+frontend/public/models/
+frontend/public/wasm/
+frontend/dist/
+.pytest_cache/
+
+/storage
